@@ -187,8 +187,8 @@ export function SessionStart({
             <Star className="w-5 h-5 text-secondary fill-secondary" />
           </motion.div>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            <strong>Daily practice</strong> helps with retention. You&apos;ve got
-            this!
+            <strong>Daily practice</strong> helps with retention. You&apos;ve
+            got this!
           </p>
           <motion.div
             animate={{ rotate: [0, -360] }}

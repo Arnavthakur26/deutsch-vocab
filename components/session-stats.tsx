@@ -121,7 +121,11 @@ export function SessionStats({ sessionData, onNewSession }: SessionStatsProps) {
           Great work! Here&apos;s how you did:
           <motion.div
             animate={{ scale: [1, 1.2, 1] }}
-            transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.75 }}
+            transition={{
+              duration: 1.5,
+              repeat: Number.POSITIVE_INFINITY,
+              delay: 0.75,
+            }}
           >
             <Heart className="w-5 h-5 text-error fill-error" />
           </motion.div>
