@@ -225,7 +225,10 @@ export function VocabularyCard({
             className="text-5xl md:text-6xl font-bold tracking-tight mb-6"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ opacity: { duration: 0.3 }, scale: { duration: 0.3 } }}
+            transition={{
+              opacity: { duration: 0.3 },
+              scale: { duration: 0.3 },
+            }}
           >
             {question.word.word}
           </motion.h2>

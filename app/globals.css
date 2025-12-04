@@ -218,15 +218,27 @@
 }
 
 @keyframes orb-move-1 {
-  0% { transform: translate3d(0,0,0) translateZ(0); }
-  50% { transform: translate3d(10px,-20px,0) translateZ(0); }
-  100% { transform: translate3d(0,0,0) translateZ(0); }
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(10px, -20px, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
 }
 
 @keyframes orb-move-2 {
-  0% { transform: translate3d(0,0,0) translateZ(0); }
-  50% { transform: translate3d(-15px,20px,0) translateZ(0); }
-  100% { transform: translate3d(0,0,0) translateZ(0); }
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-15px, 20px, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
 }
 
 /* Decorative glyph rotation (very low-impact): transform-only, slow linear rotation */
@@ -237,8 +249,12 @@
 }
 
 @keyframes glyph-rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Elegant animation keyframes without wobbling */

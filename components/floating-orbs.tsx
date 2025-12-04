@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 // Lightweight CSS-driven floating orbs. Using CSS transform-only keyframes
 // reduces repaint pressure compared to multiple JS animation layers.
@@ -21,5 +21,5 @@ export function FloatingOrbs() {
         }}
       />
     </div>
-  )
+  );
 }
